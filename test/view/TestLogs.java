@@ -29,6 +29,7 @@ public class TestLogs {
         driver.quit();
     }
 
+    //test1 voor te checken of de tabel groot genoeg is
     @Test
     public void test1() {
         ArrayList<WebElement> lis = (ArrayList<WebElement>) driver.findElements(By.tagName("th"));

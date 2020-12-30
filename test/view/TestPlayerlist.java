@@ -25,6 +25,7 @@ public class TestPlayerlist {
         driver.quit();
     }
 
+    //andere testen zijn ook in testaddplayer
     @Test
     public void test1() {
         assertEquals("player database", driver.getTitle());

@@ -29,6 +29,7 @@ public class TestHome {
         driver.quit();
     }
 
+    //test1 om te checken
     @Test
     public void test1() {
         assertEquals("HOME", driver.getTitle());

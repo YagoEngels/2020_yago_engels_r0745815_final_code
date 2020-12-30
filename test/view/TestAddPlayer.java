@@ -90,6 +90,7 @@ public class TestAddPlayer {
         assertEquals("speler toevoegen", driver.getTitle());
     }
 
+    //test4
     @Test
     public void test4() {
         WebElement naamInput = driver.findElement(By.id("naam"));
